@@ -1,74 +1,100 @@
-```
-└── 📁nike_site
-        
-    └── 📁public
-        └── favicon.ico
-        └── index.html
-        └── robots.txt
-    └── 📁src
-        └── App.css
-        └── App.tsx
-        └── 📁assets
-            └── 📁icons
-                └── arrow-right.svg
-                └── chevron-left.svg
-                └── chevron-right.svg
-                └── copyright-sign.svg
-                └── facebook.svg
-                └── hamburger.svg
-                └── index.js
-                └── instagram.svg
-                └── shield-tick.svg
-                └── star.svg
-                └── support.svg
-                └── truck-fast.svg
-                └── twitter.svg
-            └── 📁images
-                └── big-shoe1.png
-                └── big-shoe2.png
-                └── big-shoe3.png
-                └── collection-background.svg
-                └── customer1.jpeg
-                └── customer2.svg
-                └── footer-logo.svg
-                └── header-logo.svg
-                └── index.js
-                └── offer.svg
-                └── shoe4.svg
-                └── shoe5.svg
-                └── shoe6.svg
-                └── shoe7.svg
-                └── shoe8.svg
-                └── thumbnail-background.svg
-                └── thumbnail-shoe1.svg
-                └── thumbnail-shoe2.svg
-                └── thumbnail-shoe3.svg
-        └── 📁component
-            └── Button.jsx
-            └── Nav.tsx
-            └── PopularProductsCard.tsx
-            └── ReviewCard.tsx
-            └── ServiceCard.tsx
-            └── ShoeCard.jsx
-        └── 📁constants
-            └── index.js
-        └── index.css
-        └── index.tsx
-        └── 📁Sections
-            └── CustomerReview.tsx
-            └── Footer.jsx
-            └── Hero.jsx
-            └── Index.js
-            └── PopularProducts.tsx
-            └── Service.jsx
-            └── SpecialOffer.tsx
-            └── Subscribe.tsx
-            └── SuperQuality.tsx
-    └── .gitignore
-    └── package-lock.json
-    └── package.json
-    └── postcss.config.js
-    └── README.md
-    └── tailwind.config.js
-    └── tsconfig.json
-```
+# Nike Shoe Store
+
+This is a React-based web application for a Nike shoe store. The project showcases various products, services, and customer reviews.
+
+## Table of Contents
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [Project Structure](#project-structure)
+- [Available Scripts](#available-scripts)
+- [Dependencies](#dependencies)
+- [License](#license)
+
+## Installation
+
+1. Clone the repository:
+    ```sh
+    git clone https://github.com/your-username/nike-shoe-store.git
+    ```
+2. Navigate to the project directory:
+    ```sh
+    cd nike-shoe-store
+    ```
+3. Install the dependencies:
+    ```sh
+    npm install
+    ```
+
+## Usage
+
+To start the development server, run:
+```sh
+npm start
+
+This will start the application on http://localhost:3000.
+
+Project Structure
+.gitignore
+build/
+    asset-manifest.json
+    favicon.ico
+    index.html
+    robots.txt
+    static/
+        css/
+        js/
+        media/
+package.json
+postcss.config.js
+public/
+    favicon.ico
+    index.html
+    robots.txt
+README.md
+src/
+    App.css
+    App.tsx
+    assets/
+        icons/
+        images/
+    component/
+        Button.jsx
+        Nav.tsx
+        PopularProductsCard.tsx
+        ReviewCard.tsx
+        ServiceCard.tsx
+        ShoeCard.jsx
+    constants/
+        index.js
+    index.css
+    index.tsx
+    Sections/
+        CustomerReview.tsx
+        Footer.jsx
+        Hero.jsx
+        ...
+tailwind.config.js
+tsconfig.json
+
+Available Scripts
+In the project directory, you can run:
+
+npm start: Starts the development server.
+npm run build: Builds the app for production.
+npm test: Launches the test runner.
+npm run eject: Ejects the app from Create React App configuration.
+
+# Dependencies
+React
+TypeScript
+Tailwind CSS
+PostCSS
+Autoprefixer
+React Scripts
+Testing Library
+For a complete list of dependencies, refer to the package.json file.
+
+License
+This project is licensed under the MIT License.
+
